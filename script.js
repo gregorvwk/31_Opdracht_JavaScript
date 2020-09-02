@@ -1,22 +1,32 @@
 let bigFiveButton = document.getElementsByClassName("big-five-list-item");
 let spottedAnimalsList = document.getElementById("spotted-animals-list");
+const bigFiveButtonLion = bigFiveButton[0].textContent;
+const bigFiveButtonLeopard = bigFiveButton[1].textContent;
+const bigFiveButtonElephant = bigFiveButton[2].textContent;
+const bigFiveButtonRhino = bigFiveButton[3].textContent;
+const bigFiveButtonBuffalo = bigFiveButton[4].textContent;
+
 // New animal list items
 
 bigFiveButton[0].addEventListener("click", function(){
-    spottedAnimalsList.appendChild(document.createElement("li")).appendChild(document.createTextNode(bigFiveButton[0].textContent))
-    .classList("spotted-animals-list-item")
+    spottedAnimalsList.appendChild(document.createElement("li"))
+    .appendChild(document.createTextNode(bigFiveButtonLion))
 })
 bigFiveButton[1].addEventListener("click", function(){
-    spottedAnimalsList.appendChild(document.createElement("li")).appendChild(document.createTextNode(bigFiveButton[1].textContent))
+    spottedAnimalsList.appendChild(document.createElement("li"))
+    .appendChild(document.createTextNode(bigFiveButtonLeopard))
 })
 bigFiveButton[2].addEventListener("click", function(){
-    spottedAnimalsList.appendChild(document.createElement("li")).appendChild(document.createTextNode(bigFiveButton[2].textContent))
+    spottedAnimalsList.appendChild(document.createElement("li"))
+    .appendChild(document.createTextNode(bigFiveButtonElephant))
 })
 bigFiveButton[3].addEventListener("click", function(){
-    spottedAnimalsList.appendChild(document.createElement("li")).appendChild(document.createTextNode(bigFiveButton[3].textContent))
+    spottedAnimalsList.appendChild(document.createElement("li"))
+    .appendChild(document.createTextNode(bigFiveButtonRhino))
 })
 bigFiveButton[4].addEventListener("click", function(){
-    spottedAnimalsList.appendChild(document.createElement("li")).appendChild(document.createTextNode(bigFiveButton[4].textContent))
+    spottedAnimalsList.appendChild(document.createElement("li"))
+    .appendChild(document.createTextNode(bigFiveButtonBuffalo))
 })
 
 
