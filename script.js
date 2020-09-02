@@ -1,5 +1,8 @@
 let bigFiveButton = document.getElementsByClassName("big-five-list-item");
 let spottedAnimalsList = document.getElementById("spotted-animals-list");
+
+// Animal names
+
 const bigFiveButtonLion = bigFiveButton[0].textContent;
 const bigFiveButtonLeopard = bigFiveButton[1].textContent;
 const bigFiveButtonElephant = bigFiveButton[2].textContent;
